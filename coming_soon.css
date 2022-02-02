@@ -6,8 +6,9 @@ body {
 
 #coming_soon {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
+  place-content: flex-end;
   flex-direction: column;
   height: 80%;
 }
