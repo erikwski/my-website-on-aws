@@ -10,7 +10,7 @@ body {
   align-items: center;
   place-content: flex-end;
   flex-direction: column;
-  height: 100%;
+  height: 90%;
 }
 
 img {
