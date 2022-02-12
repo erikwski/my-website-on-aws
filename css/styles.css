@@ -2725,6 +2725,10 @@ img.u-pull-left {
 /* ------------------------------------------------------------------- 
  * ## swiper overrides
  * ------------------------------------------------------------------- */
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+}
 .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 1.2rem;
 }
@@ -2739,6 +2743,12 @@ img.u-pull-left {
 .swiper-container .swiper-pagination-bullet-active {
   background: var(--color-1);
   opacity: 1;
+}
+
+@media screen and (max-width: 450px) {
+  .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 0.9rem;
+  }
 }
 
 /* ------------------------------------------------------------------- 
