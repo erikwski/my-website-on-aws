@@ -3574,6 +3574,12 @@ img.u-pull-left {
 .service-text p span {
   margin-bottom: 10px;
 }
+.prezzo_part {
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 6px;
+}
 
 /* --------------------------------------------------------------------
  * ## services list
